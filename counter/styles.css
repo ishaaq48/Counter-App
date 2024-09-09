@@ -1,0 +1,46 @@
+body
+{
+    background-image: url('background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #023047;
+    text-shadow: 0 0 2px #0d0d0e;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero
+{
+    background-color: #7C606D;
+    border-radius: 20px;
+    width : 400px;
+    text-align: center;
+}
+#count-el
+{
+    margin: 6px 0;
+    font-size: 60px;
+}
+button
+{
+    width: 200px;
+    font-size: 24px;
+    font-weight: 800;
+    border-radius: 6px;
+    background-color: #909CC9;
+}
+#increment-btn,#clear-btn
+{
+    padding: 10px 15px;
+    margin: 10px 0;
+}
+#save-btn
+{
+    padding: 10px 15px;
+    margin: 10px 0;
+}
+#prev
+{
+    font-size: larger;
+}
